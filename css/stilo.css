@@ -1,0 +1,104 @@
+html{
+	height: 100%;
+}
+
+body{
+background: #ddd;
+}
+
+.principal{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main{
+	width:100%;
+	max-width: 800px;
+	height: 600px; 
+}
+
+.topo{
+	width: 100%;
+	max-width: 800px;
+	height: 400px;
+	position: relative;
+	background: no-repeat;
+	background-image: url("../img/banner.png");
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	margin-left: 0px auto;
+	margin-right: 0px auto;
+}
+
+.topo h1{
+font-weight: bolder;
+font-weight: 800;
+padding: 5px;
+font-size: 3em;
+color: white;
+text-align: center;
+}
+
+.topo h3{
+	text-align: center;
+font-size: 1.5em;
+padding: 10px;
+}
+
+.conteudo-topo{
+	padding-top:5%; 
+	width: 100%;
+	max-width: 890px;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.conteudo-topo button{
+margin-left: 42%;
+margin-top: 2%;
+font-size: 1.5em;
+padding: 10px;
+}
+
+/********seção texto*********/
+.espaco{
+	background: white;
+	height: 220px;
+	max-height: 100%;
+}
+
+.espaco-texto{
+width:100%;
+max-width: 25%;
+padding:2%;
+float: left;
+}
+
+.espaco-texto h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tempo{
+	text-align: center;
+}
+
+.espaco-texto p {
+	font-size: 1em;
+}
+
+.botao-inscreva{
+	text-align: center;
+	align-items: center;
+	
+}
+
+.botao-inscreva a{
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}

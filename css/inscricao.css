@@ -1,0 +1,55 @@
+
+
+.formulario{
+	width: 100%;
+	max-width: 800px;
+	padding: 10px;
+	border-radius: 10px;
+	border:2px solid black;
+	margin-top: 5%;
+	position: relative;
+	background: white;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.formulario h2{
+	text-align: center;
+	font-size: 3em;
+}
+
+.formulario label , input{
+font-size: 1.8em;
+
+}
+
+.botao{ 
+font-size: 1.5em;
+width: 25%;
+margin-left: 35%;
+}
+
+.campo{
+	width: 95%;
+}
+
+.alerta-nome{
+color: red;
+display: none;
+}
+
+.alerta-email{
+	color: red;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

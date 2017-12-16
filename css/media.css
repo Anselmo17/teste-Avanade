@@ -1,0 +1,65 @@
+@media all and (min-width: 377px)and (max-width:720px){
+	.espaco-texto{
+		width:100%;
+		max-width:720px;
+		padding:0px;
+		font-size: 1.5em;
+		margin-left: 1%;
+		float: left;
+		text-align: center;
+		
+		}
+}
+
+/**************tamanho de 376px******************/
+@media all and (max-width: 376px){		
+
+		.espaco-texto{
+		width:100%;
+		max-width:100%;
+		padding:2%;
+		font-size: 1.5em;
+		text-align: center;
+		float: none;
+		}
+
+		.topo h3{
+		text-align: center;
+		font-size: 1.3em;
+		padding: 10px;
+		}
+
+		.conteudo-topo button{
+		margin-left: 30%;
+		margin-bottom: 2%;
+		font-size: 1.5em;
+		padding: 10px;	
+		}
+
+		.topo h1{
+		font-weight: bolder;
+		font-weight: 800;
+		padding: 5px;
+		font-size: 2.5em;
+		color: white;
+		text-align: center;
+		}
+
+		.espaco-texto h2{
+		font-size: 1em;
+		font-weight: bold;
+		text-align: center;
+		}
+
+}
+
+
+@media all and (max-width: 400px){
+
+	.botao{ 
+	font-size: 1.5em;
+	width: 50%;
+	margin-left: 25%;
+	}
+
+}
